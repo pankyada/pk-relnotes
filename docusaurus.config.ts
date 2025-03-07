@@ -80,7 +80,7 @@ const config: Config = {
           items: [
             {
               label: 'Documentation',
-              to: '/introduction',
+              to: '/',
             },
             {
               label: 'Release Notes',
