@@ -7,11 +7,11 @@ const config: Config = {
   tagline: 'Documentation & Release Notes',
   favicon: 'img/favicon.ico',
 
-  url: 'https://your-github-username.github.io',
-  baseUrl: '/your-repo-name/',
+  url: 'https://pankyada.github.io',
+  baseUrl: '/pk-relnotes/',
 
-  organizationName: 'your-github-username',
-  projectName: 'your-repo-name',
+  organizationName: 'pankyada',
+  projectName: 'pk-relnotes',
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
@@ -28,7 +28,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/your-github-username/your-repo-name/tree/main/',
+          editUrl: 'https://github.com/pankyada/pk-relnotes/tree/main/',
           routeBasePath: '/',
         },
         blog: false,
@@ -66,7 +66,7 @@ const config: Config = {
           label: 'Release Notes',
         },
         {
-          href: 'https://github.com/your-github-username/your-repo-name',
+          href: 'https://github.com/pankyada/pk-relnotes',
           label: 'GitHub',
           position: 'right',
         },
@@ -93,7 +93,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/your-github-username/your-repo-name',
+              href: 'https://github.com/pankyada/pk-relnotes',
             },
           ],
         },
